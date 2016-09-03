@@ -20,7 +20,15 @@ namespace auladesabado
 			UserDialogs.Instance.ShowLoading("Logando como " + txtLogin.Text);
 			await Task.Delay(3000);
 			UserDialogs.Instance.HideLoading();
+
+			Navigation.InsertPageBefore(new TabbedMainPage(), this);
+			await Navigation.PopAsync();
 			//DisplayAlert(txtLogin.Text,txtSenha.Text, "OK", "Cancelar");
+		}
+
+		async void cadClicked(object sender, System.EventArgs e)
+		{
+			await Navigation.PushModalAsync(new CadastrarPage());
 		}
 	}
 }

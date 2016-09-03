@@ -5,6 +5,7 @@
 		<Entry x:Name="txtLogin" WidthRequest="300" HeightRequest="40" Placeholder="usuario" PlaceholderColor="Fuchsia" TextColor="Red" BackgroundColor="Aqua" ></Entry>
 		<Entry x:Name="txtSenha" WidthRequest="300" HeightRequest="40" Placeholder="senha" PlaceholderColor="Fuchsia" TextColor="Red" BackgroundColor="Aqua" IsPassword="true"></Entry>
 			<Button x:Name="btnLogin" Clicked="Handle_Clicked" WidthRequest="300" HeightRequest="50" Text="Login" BackgroundColor="Maroon" TextColor="Yellow"></Button>
+			<Button x:Name="btnCadastrar" Clicked="cadClicked" WidthRequest="300" HeightRequest="50" Text="Cadastrar" BackgroundColor="Maroon" TextColor="Yellow"></Button>
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

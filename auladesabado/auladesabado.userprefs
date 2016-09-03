@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="Droid/auladesabado.Droid.csproj">
-  <MonoDevelop.Ide.ItemProperties.auladesabado.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+﻿<Properties StartupItem="iOS/auladesabado.iOS.csproj">
+  <MonoDevelop.Ide.ItemProperties.auladesabado.Droid PreferredExecutionTarget="Android.Android_ARMv7a" />
   <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2EB27AD9-90F7-4129-A7BD-91BEA5AA7B03" />
 </Properties>

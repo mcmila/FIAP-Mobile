@@ -26,11 +26,15 @@ namespace auladesabado {
         private global::Xamarin.Forms.Button btnLogin;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnCadastrar;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(LoginPage));
             txtLogin = this.FindByName <global::Xamarin.Forms.Entry>("txtLogin");
             txtSenha = this.FindByName <global::Xamarin.Forms.Entry>("txtSenha");
             btnLogin = this.FindByName <global::Xamarin.Forms.Button>("btnLogin");
+            btnCadastrar = this.FindByName <global::Xamarin.Forms.Button>("btnCadastrar");
         }
     }
 }

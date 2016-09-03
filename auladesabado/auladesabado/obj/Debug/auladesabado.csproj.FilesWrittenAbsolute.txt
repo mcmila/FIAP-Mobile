@@ -15,3 +15,9 @@
 /Users/Guest/Documents/FIAP/auladesabado/auladesabado/bin/Debug/Splat.dll
 /Users/Guest/Documents/FIAP/auladesabado/auladesabado/bin/Debug/Acr.UserDialogs.dll
 /Users/Guest/Documents/FIAP/auladesabado/auladesabado/bin/Debug/Acr.UserDialogs.Interface.dll
+/Users/Guest/Documents/FIAP/auladesabado/auladesabado/obj/Debug/auladesabado.Pages.TabbedMainPage.xaml.g.cs
+/Users/Guest/Documents/FIAP/auladesabado/auladesabado/obj/Debug/auladesabado.Pages.CadastrarPage.xaml.g.cs
+/Users/Guest/Documents/FIAP/auladesabado/auladesabado/obj/Debug/auladesabado.Pages.RecuperaSenhaPage.xaml.g.cs
+/Users/Guest/Documents/FIAP/auladesabado/auladesabado/obj/Debug/auladesabado.Pages.TabbedMainPage.xaml
+/Users/Guest/Documents/FIAP/auladesabado/auladesabado/obj/Debug/auladesabado.Pages.CadastrarPage.xaml
+/Users/Guest/Documents/FIAP/auladesabado/auladesabado/obj/Debug/auladesabado.Pages.RecuperaSenhaPage.xaml
