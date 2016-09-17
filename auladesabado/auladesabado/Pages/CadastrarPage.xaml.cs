@@ -14,7 +14,7 @@ namespace auladesabado
 			datepicker.MaximumDate = DateTime.Now;
 		}
 
-		async void Handle_Clicked(object sender, System.EventArgs e)
+		void Handle_Clicked(object sender, System.EventArgs e)
 		{
 			App.Current.MainPage = new LoginPage();
 		}

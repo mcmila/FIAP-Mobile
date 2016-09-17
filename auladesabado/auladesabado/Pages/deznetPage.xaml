@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="auladesabado.deznetPage">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="5" BackgroundColor="Gray">
+			<StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+				<Entry x:Name="txtLogin" WidthRequest="200" HeightRequest="50" Placeholder="Digite seu usuário" PlaceholderColor="Navy" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center">
+				</Entry>
+				<Entry x:Name="txtSenha" WidthRequest="200" HeightRequest="50" Placeholder="Digite sua senha" PlaceholderColor="Navy" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center" IsPassword="true">
+				</Entry>
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Button Text="Entrar" WidthRequest="100" HeightRequest="50" BackgroundColor="Yellow" TextColor="Black" FontAttributes="Italic"
+						Clicked="Handle_Clicked">
+				</Button>
+				<Button Text="Recuperar Senha" WidthRequest="100" HeightRequest="50" BackgroundColor="Aqua" TextColor="Black" FontAttributes="Italic"
+						Clicked="Recuperar_Clicked">
+				</Button>
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

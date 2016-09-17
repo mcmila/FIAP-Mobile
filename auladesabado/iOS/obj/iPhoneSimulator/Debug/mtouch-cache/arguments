@@ -1,10 +1,10 @@
 # Version: 9.8.2.22 (cycle7-sr1: f37444a)
-# [first argument, ignore] # /Users/Guest/Documents/FIAP/auladesabado/iOS/mtouch.exe
+# [first argument, ignore] # /Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/iOS/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/9.8.2.22/bin/mtouch \
 	--cache \
-	/Users/Guest/Documents/FIAP/auladesabado/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	/Users/Guest/Documents/FIAP/auladesabado/iOS/bin/iPhoneSimulator/Debug/auladesabado.iOS.app \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/iOS/bin/iPhoneSimulator/Debug/auladesabado.iOS.app \
 	--executable \
 	auladesabado.iOS \
 	--fastdev \
@@ -21,7 +21,7 @@
 	--tls-provider=default \
 	--abi=i386 \
 	--symbollist \
-	/Users/Guest/Documents/FIAP/auladesabado/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -30,25 +30,35 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Xamarin.Forms.2.0.1.6495/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Xamarin.Forms.2.0.1.6495/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Acr.Support.2.1.0/lib/Xamarin.iOS10/Acr.Support.iOS.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Xamarin.Forms.2.0.1.6495/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Acr.UserDialogs.6.2.0/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Xamarin.Forms.2.0.1.6495/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Acr.UserDialogs.6.2.0/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Acr.Support.2.1.0/lib/Xamarin.iOS10/Acr.Support.iOS.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xam.Plugin.Geolocator.3.0.4/lib/Xamarin.iOS10/Plugin.Geolocator.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Acr.UserDialogs.6.2.0/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xam.Plugin.Geolocator.3.0.4/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Acr.UserDialogs.6.2.0/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.Maps.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.Maps.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/auladesabado/bin/Debug/auladesabado.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/auladesabado/bin/Debug/auladesabado.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -310,23 +320,33 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Xamarin.Forms.2.0.1.6495/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Xamarin.Forms.2.0.1.6495/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Acr.Support.2.1.0/lib/Xamarin.iOS10/Acr.Support.iOS.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Xamarin.Forms.2.0.1.6495/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Acr.UserDialogs.6.2.0/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Xamarin.Forms.2.0.1.6495/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Acr.UserDialogs.6.2.0/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Acr.Support.2.1.0/lib/Xamarin.iOS10/Acr.Support.iOS.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xam.Plugin.Geolocator.3.0.4/lib/Xamarin.iOS10/Plugin.Geolocator.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Acr.UserDialogs.6.2.0/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xam.Plugin.Geolocator.3.0.4/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/packages/Acr.UserDialogs.6.2.0/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/Guest/Documents/FIAP/auladesabado/auladesabado/bin/Debug/auladesabado.dll \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.Maps.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/packages/Xamarin.Forms.Maps.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll \
+	-r \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/auladesabado/bin/Debug/auladesabado.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/Guest/Documents/FIAP/auladesabado/iOS/bin/iPhoneSimulator/Debug//auladesabado.iOS.exe \
+	/Users/Guest/Documents/FIAP/FIAP-Mobile/auladesabado/iOS/bin/iPhoneSimulator/Debug//auladesabado.iOS.exe \

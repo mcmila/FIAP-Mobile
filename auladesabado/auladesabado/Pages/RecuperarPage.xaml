@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="auladesabado.RecuperarPage" Title="Recuperar Page" BackgroundColor="Silver">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical">
+			<Entry Keyboard="Email" x:Name="txtRecuperar" WidthRequest="300" HeightRequest="50" HorizontalTextAlignment="Center" Placeholder="Digite o e-mail" TextColor="Fuchsia">
+			</Entry>
+			<Button x:Name="btnEnviar" Text="Enviar" Clicked="btnEnviar_Clicked" BackgroundColor="Green" TextColor="White">
+			</Button>
+			<Button x:Name="btnCancelar" Text="Cancelar" Clicked="btnCancelar_Clicked" BackgroundColor="Green" TextColor="White">
+			</Button>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

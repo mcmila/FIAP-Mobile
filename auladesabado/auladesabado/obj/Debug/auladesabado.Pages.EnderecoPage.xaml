@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="auladesabado.EnderecoPage">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+			<Entry x:Name="txtCep" Keyboard="Numeric" WidthRequest="200" HeightRequest="50" Placeholder="Digite seu CEP" PlaceholderColor="Navy" TextColor="Red" HorizontalTextAlignment="Start"
+				Unfocused="txtCep_Unfocused"/>
+			<Entry x:Name="txtEndereco" WidthRequest="200" HeightRequest="50" Placeholder="Endereco" PlaceholderColor="Navy" TextColor="Red" HorizontalTextAlignment="Start" IsEnabled="false"/>
+			<Entry x:Name="txtBairro" WidthRequest="200" HeightRequest="50" Placeholder="Bairro" PlaceholderColor="Navy" TextColor="Red" HorizontalTextAlignment="Start" IsEnabled="false"/>
+			<Entry x:Name="txtCidade" WidthRequest="200" HeightRequest="50" Placeholder="Cidade" PlaceholderColor="Navy" TextColor="Red" HorizontalTextAlignment="Start" IsEnabled="false"/>
+			<Entry x:Name="txtEstado" WidthRequest="200" HeightRequest="50" Placeholder="Estado" PlaceholderColor="Navy" TextColor="Red" HorizontalTextAlignment="Start" IsEnabled="false"/>
+			<Entry x:Name="txt" WidthRequest="200" HeightRequest="50"   TextColor="Red" HorizontalTextAlignment="Start" IsEnabled="false"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
