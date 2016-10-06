@@ -1,4 +1,25 @@
-﻿<Properties StartupItem="iOS/auladesabado.iOS.csproj">
-  <MonoDevelop.Ide.ItemProperties.auladesabado.Droid PreferredExecutionTarget="Android.Android_ARMv7a" />
-  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2EB27AD9-90F7-4129-A7BD-91BEA5AA7B03" />
+﻿<Properties StartupConfiguration="{F1A4225C-398B-4785-8C40-A56D0E8AE561}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="auladesabado/auladesabado.csproj">
+    <Files>
+      <File FileName="auladesabado/Pages/MainPage.xaml.cs" Line="12" Column="45" />
+      <File FileName="auladesabado/Interfaces/ISQLiteService.cs" Line="3" Column="1" />
+      <File FileName="auladesabado/Models/BaseItem.cs" Line="2" Column="14" />
+      <File FileName="auladesabado/Models/Database.cs" Line="90" Column="38" />
+      <File FileName="auladesabado/Models/Person.cs" Line="10" Column="32" />
+      <File FileName="iOS/Services/SQLiteService.cs" Line="38" Column="50" />
+      <File FileName="auladesabado/ViewModels/MainPageViewModel.cs" Line="51" Column="39" />
+      <File FileName="auladesabado/ViewModels/BaseViewModel.cs" Line="18" Column="62" />
+      <File FileName="auladesabado/App.xaml.cs" Line="20" Column="30" />
+      <File FileName="auladesabado/auladesabado.csproj" Line="7" Column="103" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6C6CA5F8-EFD5-4D8E-9F93-640D24FEE18F" />
+  <DisabledProjects>
+    <String>Droid/auladesabado.Droid.csproj</String>
+  </DisabledProjects>
 </Properties>

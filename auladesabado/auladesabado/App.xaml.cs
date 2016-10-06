@@ -16,7 +16,8 @@ namespace auladesabado
 			InitializeComponent();
 
 			//MainPage = new NavigationPage(new LoginPage());
-			MainPage = new NavigationPage(new deznetPage());
+			//MainPage = new NavigationPage(new deznetPage());
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart()
